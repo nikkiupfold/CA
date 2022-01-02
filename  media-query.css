@@ -1,0 +1,249 @@
+                                                  @media only screen and (max-width: 1050px) {
+                                          .burger-icon {
+                                              display: block;
+                                          }
+                                          nav.main-nav {
+                                              display: none;
+                                              position: absolute;
+                                              z-index: 2;
+                                              top: 0;
+                                              right: 0;
+                                              width: 100vw;
+                                              height: 100vh;
+                                              background-color: #1c2938;
+                                              -webkit-animation: extend 1s;
+                                              -moz-animation: extend 1s;
+                                              -o-animation: extend 1s;
+                                              animation: expand 1s;
+                                          }
+                                          nav.main-nav ul {
+                                              display: block;
+                                              text-align: center;
+                                              margin-top: 100px;
+                                          }
+                                          nav.main-nav ul li {
+                                              display: block;
+                                              margin-bottom: 70px;
+                                          }
+                                          nav.main-nav ul li a {
+                                              color: #ffffff;
+                                              text-align: center;
+                                              font-size: 18px;
+                                              transition: 0.5s ease-out;
+                                              -webkit-animation: appear 2s;
+                                              -moz-animation: appear 2s;
+                                              -o-animation: appear 2s;
+                                              animation: appear 2s;
+                                          }
+                                          nav.main-nav ul li a:visited {
+                                              color: #ffffff;
+                                          }
+                                          nav.main-nav ul li a:hover {
+                                              color: #f66767;
+                                          }
+                                          nav.main-nav ul li a:active {
+                                              color: #ffffff;
+                                          }
+                                          .active-link {
+                                              color: #f66767;
+                                          }
+                                          .top-h1 {
+                                              font-size: 25px;
+                                              line-height: 40px;
+                                              letter-spacing: normal;
+                                          }
+                                          .image-grid {
+                                              --num-cols: 2;
+                                              --row-height: 200px;
+                                          }
+                                          /*about*/
+                                          .team {
+                                              flex-direction: column;
+                                          }
+                                          .inner-div {
+                                              width: 80%;
+                                          }
+                                          .team-col {
+                                              width: 100%;
+                                              margin: 10px auto;
+                                              text-align: center;
+                                          }
+                                          .team-h2 {
+                                              margin: 50px auto 15px auto;
+                                          }
+                                          .team-img {
+                                              display: block;
+                                              width: 60%;
+                                              margin: 25px auto;
+                                          }
+                                          h4.team-sub-h4 {
+                                              line-height: 25px;
+                                          }
+                                          .team-social {
+                                              text-align: center;
+                                              padding-bottom: 50px;
+                                          }
+                                          .team-col:not(:last-child) {
+                                              border-bottom: 1px solid rgb(43, 62, 85);
+                                          }
+                                      }
+                                      
+                                      @media only screen and (max-width: 800px) {
+                                          .row {
+                                              flex-direction: column;
+                                              margin-bottom: 0;
+                                          }
+                                          .col {
+                                              width: 100%;
+                                              margin-bottom: 30px;
+                                          }
+                                          .team-img {
+                                              display: block;
+                                              width: 70%;
+                                              margin: 25px auto;
+                                          }
+                                          /*contact*/
+                                          .contact-container {
+                                              flex-direction: column;
+                                          }
+                                          .contact-details {
+                                              margin-right: 0;
+                                              margin-bottom: 50px;
+                                          }
+                                          .map {
+                                              position: relative;
+                                              padding-bottom: 56.25%;
+                                              overflow: hidden;
+                                              height: 0;
+                                          }
+                                          .map iframe {
+                                              width: 600px;
+                                          }
+                                          .image-grid {
+                                              --num-cols: 2;
+                                              --row-height: 200px;
+                                          }
+                                      }
+                                      
+                                      @media only screen and (max-width: 500px) {
+                                          .top-main-content {
+                                              width: 80%;
+                                              margin: 50px auto;
+                                              flex-direction: column;
+                                              justify-content: center;
+                                          }
+                                          .big-text {
+                                              width: 100%;
+                                              padding-right: 0;
+                                          }
+                                          .top-h1 {
+                                              font-size: 25px;
+                                              line-height: 45px;
+                                          }
+                                          main-img {
+                                              display: block;
+                                              width: 70%;
+                                              margin: 25px auto;
+                                          }
+                                          .map iframe {
+                                              width: 450px;
+                                          }
+                                          .image-grid {
+                                              --num-cols: 2;
+                                              --row-height: 200px;
+                                          }
+                                          @media only screen and (max-width: 450px) {
+                                              .logo img {
+                                                  width: 80px;
+                                                  height: 65px;
+                                              }
+                                              .map iframe {
+                                                  width: 300px;
+                                              }
+                                              .image-grid {
+                                                  --num-cols: 2;
+                                                  --row-height: 200px;
+                                              }
+                                          }
+                                          @media only screen and (max-width: 340px) {
+                                              .top-h1 {
+                                                  font-size: 18px;
+                                                  line-height: 40px;
+                                              }
+                                              .image-grid {
+                                                  --num-cols: 2;
+                                                  --row-height: 200px;
+                                              }
+                                          }
+                                          @media only screen and (min-height: 1000px) {
+                                              .logo img {
+                                                  width: 160px;
+                                                  height: 131px;
+                                              }
+                                              .burger-icon {
+                                                  font-size: 50px;
+                                              }
+                                              .exit i {
+                                                  font-size: 50px;
+                                                  position: absolute;
+                                                  top: 60px;
+                                              }
+                                              nav.main-nav ul li a {
+                                                  padding-bottom: 25px;
+                                                  font-size: 25px;
+                                              }
+                                              .top-main-content {
+                                                  flex-direction: column;
+                                              }
+                                              .main-img img {
+                                                  width: 300px;
+                                              }
+                                              .big-text {
+                                                  width: 100%;
+                                                  padding-right: 0;
+                                                  margin-bottom: 50px;
+                                              }
+                                              .top-h1 {
+                                                  font-size: 35px;
+                                                  line-height: 55px;
+                                              }
+                                              .social-media-link i {
+                                                  font-size: 30px;
+                                              }
+                                              .image-grid {
+                                                  --num-cols: 2;
+                                                  --row-height: 200px;
+                                              }
+                                              @media only screen and (min-height: 1290px) {
+                                                  .burger-icon {
+                                                      font-size: 60px;
+                                                  }
+                                                  .exit i {
+                                                      font-size: 70px;
+                                                      position: absolute;
+                                                      top: 57px;
+                                                  }
+                                                  nav.main-nav ul li {
+                                                      margin-bottom: 100px;
+                                                  }
+                                                  nav.main-nav ul li a {
+                                                      font-size: 35px;
+                                                  }
+                                                  .top-main-content {
+                                                      flex-direction: column;
+                                                  }
+                                                  .main-img img {
+                                                      width: 500px;
+                                                  }
+                                                  .big-text {
+                                                      width: 100%;
+                                                      padding-right: 0;
+                                                      margin-bottom: 100px;
+                                                  }
+                                                  .top-h1 {
+                                                      font-size: 45px;
+                                                      line-height: 75px;
+                                                  }
+                                                  .social-media-link i {
+                                                      font-size: 40px;
+                                                  }

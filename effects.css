@@ -1,0 +1,115 @@
+/*effects*/
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*extend*/
+
+@-webkit-keyframes extend {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@-moz-keyframes extend {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@-o-keyframes extend {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes extend {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+/*Expand*/
+
+@-moz-keyframes expand {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@-o-keyframes expand {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@-webkit-keyframes expand {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes expand {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
